@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  node:
+    image: sanpeidesign/node:1.2.0
+    stdin_open: true
+    tty: true
+    volumes:
+      - .:/node
+    ports:
+      - "30042:8080"
