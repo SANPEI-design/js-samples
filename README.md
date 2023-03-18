@@ -57,3 +57,16 @@ These libraries are community supported. We're comfortable enough with the stabi
 the libraries that we want you to build real production applications on it.
 
 If you find a bug, or have a feature suggestion, please [log an issue](issues). If you'd like to contribute, please read [How to Contribute](CONTRIB.md).
+
+## add node
+
+docker-compose run --rm -p 30042:8080 node bash
+http://localhost:30042
+
+## stop
+
+docker-compose stop
+
+## down
+
+docker-compose down --volumes --remove-orphans
